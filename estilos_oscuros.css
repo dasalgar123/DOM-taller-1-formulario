@@ -1,0 +1,82 @@
+/* Estilo general para el cuerpo */
+body {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Hace que el body ocupe el 100% de la altura de la pantalla */
+    margin: 0;
+    background-color:#333333; /* Color de fondo opcional */
+    overflow: hidden;          /* Evita que el contenido se desborde */
+}
+
+
+/* Estilo para el contenedor del formulario */
+div {
+    background-color: #1e1e1e; /* Fondo del formulario */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
+    width: 100%;
+    max-width: 400px; /* Ajusta el ancho máximo */
+    text-align: center;
+    margin: 0 auto; /* Asegura que el contenedor esté centrado */
+}
+
+/* Estilo del título */
+h1 {
+    color: #FFB74D; /* Color anaranjado */
+    margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    text-align: left;
+    color: #E0E0E0;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para los campos de texto */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333333; /* Fondo de los campos */
+    border: 1px solid #555555; /* Borde del campo */
+    border-radius: 5px;
+    color: #E0E0E0; /* Texto claro */
+    font-size: 16px;
+}
+
+/* Estilo para los botones */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: blue; /* Botón color anaranjado */
+    color: #fff;
+    font-size: 16px;
+}
+
+button:hover { background-color: darkblue;}
+button:active { background-color: darkblue;}
+
+/* Estilo del enlace "Olvidó su contraseña" */
+a {
+    display: block;
+    color: #29B6F6;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+a:hover { text-decoration: underline;}
+
+/* Estilo para los mensajes de error */
+#mensaje_error { color: #FF5252;}
+
+

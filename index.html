@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM en JavaScript</title>
+    <link rel="stylesheet" href="estilos_claros.css">
+    <link rel="stylesheet" href="estilos_oscuros.css">
+</head>
+<body>
+    <head>
+        
+    </head><br>
+
+    <div>
+        
+    <h1>DOM en JavaScript
+        </h1>
+        <form id="formulario">
+            <label for="nombre_usuario">Nombre de usuario</label>
+            <input id="nombre_usuario_input" type="text" placeholder="Favor ingrese su nombre">
+
+            <label for="contraseña">Contraseña</label>
+            <input id="contraseña_input" type="password" placeholder="Ingrese su contraseña">
+
+            <button type="button" id="btn_Entrar" onclick="validar_campos()">Entrar</button><br>
+            <button type="reset" id="btn_Limpiar"  onclick="Limpiar_campo()">Limpiar</button><br>
+
+            <a id="olvido_contraseña" href="olvido_contraseña.html">Olvidó su contraseña</a>
+
+            <!-- Aquí se mostrará un mensaje de error si la validación falla -->
+            <p id="mensaje_error_nombre" style="color:red;"></p>
+            <p id="mensaje_error_contraseña" style="color:red;"></p>
+        </form>
+    </div>
+    <div>
+        <button id="btnCambiarTema">Cambiar a Tema Oscuro</button>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="script _m2.js"></script>
+    <script src="script _novato.js"></script>
+    <script src="script _optimizado.js"></script>
+    <script src="script _profesional.js"></script>
+    <script src="script temas.js"></script>
+   
+</body>
+</html>
